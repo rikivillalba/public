@@ -1,0 +1,2866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Zonas Edesur.kmz</name>
+	<Schema name="Barrios_Cerrados" id="Barrios_Cerrados">
+		<SimpleField type="int" name="id"></SimpleField>
+		<SimpleField type="string" name="nombre"></SimpleField>
+		<SimpleField type="string" name="fecha_alta"></SimpleField>
+		<SimpleField type="string" name="fecha_baja"></SimpleField>
+	</Schema>
+	<Schema name="Zonas_Quita_Directa" id="Zonas_Quita_Directa">
+		<SimpleField type="int" name="id"></SimpleField>
+		<SimpleField type="string" name="nombre"></SimpleField>
+		<SimpleField type="string" name="fecha_alta"></SimpleField>
+		<SimpleField type="string" name="fecha_baja"></SimpleField>
+	</Schema>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Zonas Edesur</name>
+		<open>1</open>
+		<Folder>
+			<name>Barrios_Cerrados</name>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">91</SimpleData>
+						<SimpleData name="nombre">Las Perdices</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.69368274154719,-34.9125814800755,0 -58.6935795159753,-34.9135718147347,0 -58.6914485844138,-34.9140896723417,0 -58.6894659545174,-34.913536529987,0 -58.68938438204161,-34.9104080948006,0 -58.6932965873773,-34.9072595779973,0 -58.69360721842039,-34.906298511881,0 -58.6946366248203,-34.9062374691043,0 -58.6944939830256,-34.9041899531295,0 -58.6962380827121,-34.9039022304579,0 -58.6987626079562,-34.9068495490564,0 -58.6998462873476,-34.9075100951291,0 -58.69368274154719,-34.9125814800755,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">562</SimpleData>
+						<SimpleData name="nombre">Barrio Parque Links y Erratchu</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.55624943310919,-34.8629689722103,0 -58.55533834322049,-34.8625435508426,0 -58.55060603285899,-34.8686341006068,0 -58.54344728981999,-34.864681966185,0 -58.5477242237349,-34.8590098687733,0 -58.5498048825793,-34.8563398103797,0 -58.5511723672348,-34.8544273252601,0 -58.5596018165584,-34.8588447158735,0 -58.55624943310919,-34.8629689722103,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">563</SimpleData>
+						<SimpleData name="nombre">Santa Juana</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.48515981619129,-34.9036173901845,0 -58.4883838107829,-34.8990249225455,0 -58.4930348237857,-34.9013268945882,0 -58.48973442287561,-34.905918536696,0 -58.48515981619129,-34.9036173901845,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">564</SimpleData>
+						<SimpleData name="nombre">El Lauquen</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.48339605206421,-34.9346716618465,0 -58.4915030135342,-34.9282473203041,0 -58.4969740695001,-34.9330829304824,0 -58.4888557577152,-34.9395255164422,0 -58.48339605206421,-34.9346716618465,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">565</SimpleData>
+						<SimpleData name="nombre">La Horqueta</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4805954103057,-34.9013702786105,0 -58.4839395348165,-34.8967974572285,0 -58.4884060151519,-34.8990071729938,0 -58.4851710848575,-34.9035995049344,0 -58.4805954103057,-34.9013702786105,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">566</SimpleData>
+						<SimpleData name="nombre">Saint Thomas</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4926093949738,-34.885693269207,0 -58.5030603020327,-34.8799730490625,0 -58.5037171769011,-34.8811438038196,0 -58.5062084558179,-34.8897367191322,0 -58.5091440820787,-34.898587392207,0 -58.50917515321461,-34.8998946445267,0 -58.5089043973497,-34.9015587094693,0 -58.5059832800022,-34.9076065333553,0 -58.48455696994339,-34.8971296217076,0 -58.4926093949738,-34.885693269207,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">567</SimpleData>
+						<SimpleData name="nombre">Don Joaquin</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4960903453284,-34.9323329395534,0 -58.4914809666637,-34.9282560593645,0 -58.4965357778034,-34.9223161671091,0 -58.5015790658278,-34.9247939223336,0 -58.4960903453284,-34.9323329395534,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">568</SimpleData>
+						<SimpleData name="nombre">Barrancas de Guido</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.2418362925978,-34.7235040135203,0 -58.2384060617111,-34.7215707863032,0 -58.23910595563579,-34.7209950806748,0 -58.24241862284769,-34.7228094261871,0 -58.2418362925978,-34.7235040135203,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">569</SimpleData>
+						<SimpleData name="nombre">Solar del Bosque</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.5125425058162,-34.9097149065507,0 -58.5120472231421,-34.9104839512425,0 -58.5059942182868,-34.9076066678459,0 -58.5073250608114,-34.9054058523814,0 -58.51025898702461,-34.9010615878742,0 -58.5126625708825,-34.9085176611701,0 -58.5125425058162,-34.9097149065507,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">570</SimpleData>
+						<SimpleData name="nombre">Ranelagh Golf Club</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.2080524535031,-34.801781865868,0 -58.2076537738354,-34.8025330482628,0 -58.2056844018759,-34.8011431226079,0 -58.204480534033,-34.8022429187245,0 -58.2054054314741,-34.8029234943794,0 -58.20593555822789,-34.8036703427195,0 -58.20519530675961,-34.8045516671306,0 -58.2031764023385,-34.8029266440379,0 -58.1947184098621,-34.7959609122295,0 -58.19870133504271,-34.7926672725084,0 -58.2003667388769,-34.7939536743227,0 -58.2049154433131,-34.7922634164839,0 -58.2094435102632,-34.8006126879515,0 -58.2080524535031,-34.801781865868,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">571</SimpleData>
+						<SimpleData name="nombre">Club HÃ­pico Quilmes</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.2558091435798,-34.7421810394332,0 -58.2522361139573,-34.7402371319977,0 -58.25344582817049,-34.7387854163546,0 -58.2571775023476,-34.7404521644319,0 -58.2558091435798,-34.7421810394332,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">572</SimpleData>
+						<SimpleData name="nombre">Las CaÃ±uelas Club de Campo</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.738035621362,-34.970761382964,0 -58.745935327631,-34.9646782575146,0 -58.7496515185715,-34.9679793305827,0 -58.7401373085954,-34.9750914719979,0 -58.738035621362,-34.970761382964,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">573</SimpleData>
+						<SimpleData name="nombre">Village del Parque</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.1639572334364,-34.8410586080034,0 -58.1604594120968,-34.8420331600318,0 -58.1564292663184,-34.8428553415032,0 -58.151922854476,-34.8434628647539,0 -58.1490434006088,-34.8407333699097,0 -58.1493394152029,-34.8402061433652,0 -58.1479036116739,-34.8389135335874,0 -58.15290273018771,-34.8348348465568,0 -58.1546645426753,-34.8362134574776,0 -58.1549627854264,-34.8360737840806,0 -58.1556633104432,-34.8360303360421,0 -58.1562732052564,-34.8361297087212,0 -58.1567507737469,-34.8362811472504,0 -58.1600038750852,-34.8389259928673,0 -58.1609762084269,-34.8399320689589,0 -58.1668407316378,-34.8362353939063,0 -58.1702000494862,-34.8390347844578,0 -58.1639572334364,-34.8410586080034,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">574</SimpleData>
+						<SimpleData name="nombre">La Magdalena Tenis</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.47812514376701,-34.9000685535958,0 -58.4897350829682,-34.9058824934308,0 -58.4796801465913,-34.9195647811035,0 -58.4696205159099,-34.9121020398927,0 -58.47812514376701,-34.9000685535958,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">575</SimpleData>
+						<SimpleData name="nombre">Horizontes al sur</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.45767713632321,-34.9364207586518,0 -58.4552616458134,-34.9344973800808,0 -58.4509062171416,-34.9385517345796,0 -58.44879805529019,-34.9354244378081,0 -58.44709119501329,-34.9301752223915,0 -58.4516946791189,-34.9239701022718,0 -58.4625185884531,-34.9321019228513,0 -58.45767713632321,-34.9364207586518,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">576</SimpleData>
+						<SimpleData name="nombre">Echeverria del Lago</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4778360298329,-34.8938009930655,0 -58.4925101541776,-34.8857371028679,0 -58.4844590354929,-34.8971013617898,0 -58.4778360298329,-34.8938009930655,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">577</SimpleData>
+						<SimpleData name="nombre">Village del Parque II</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.1685810125993,-34.8351440717503,0 -58.16633787263001,-34.8332807427442,0 -58.1648020112913,-34.8345193173735,0 -58.1634055556115,-34.8334167424871,0 -58.1649535419315,-34.8321242935949,0 -58.1622706032452,-34.8298937566438,0 -58.16394904913409,-34.8286303277064,0 -58.1706989349292,-34.8337790188572,0 -58.1685810125993,-34.8351440717503,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">578</SimpleData>
+						<SimpleData name="nombre">El Carmen</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.17250343931,-34.8213689460746,0 -58.1733746384651,-34.8220038935852,0 -58.1764193724937,-34.8246812250916,0 -58.17716449829,-34.8255846301196,0 -58.1780929863873,-34.826103241095,0 -58.1798732989849,-34.8266526209937,0 -58.18133658855841,-34.8272062474302,0 -58.1770946004377,-34.8297473455419,0 -58.1698306031669,-34.8236269365781,0 -58.169017698716,-34.824308661485,0 -58.1631614903146,-34.8193085699912,0 -58.1682253969333,-34.8151761126446,0 -58.1740623771,-34.8200585124657,0 -58.17250343931,-34.8213689460746,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">579</SimpleData>
+						<SimpleData name="nombre">Venado II</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.47483914160109,-34.8760260825975,0 -58.4716525897288,-34.8744718952789,0 -58.4772516038868,-34.8667820565689,0 -58.48042753993,-34.8683089248731,0 -58.47483914160109,-34.8760260825975,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">580</SimpleData>
+						<SimpleData name="nombre">Los Ombues de Hudson</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.1664306877222,-34.8024685127694,0 -58.1632661300768,-34.7998251817048,0 -58.1614123032221,-34.797697271586,0 -58.1595249909187,-34.7946225164726,0 -58.1605763358555,-34.7940165534744,0 -58.1686788902576,-34.800609751704,0 -58.1664306877222,-34.8024685127694,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">581</SimpleData>
+						<SimpleData name="nombre">Fincas de Iraola</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.1813912177965,-34.8272070643167,0 -58.1798516457425,-34.8266432844612,0 -58.1781255649615,-34.8261127415952,0 -58.1771865480766,-34.8255759481123,0 -58.17641996843601,-34.8246541965961,0 -58.1748528820834,-34.8233599314504,0 -58.1732981626836,-34.8220027450467,0 -58.1724698680292,-34.8214044915569,0 -58.17598793860601,-34.8184741691947,0 -58.1843511466437,-34.8253045907263,0 -58.1813912177965,-34.8272070643167,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">582</SimpleData>
+						<SimpleData name="nombre">San Eliseo</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.46009741955021,-35.0036053614159,0 -58.4488921297817,-34.9937379820296,0 -58.45858081554439,-34.9863538273573,0 -58.4695778590333,-34.9950640717497,0 -58.46978007761069,-34.9959678928617,0 -58.46009741955021,-35.0036053614159,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">583</SimpleData>
+						<SimpleData name="nombre">Estancia Villa MarÃ­a</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.5946249399696,-34.9608942627581,0 -58.601353576667,-34.955996802102,0 -58.6059571192004,-34.9601866819097,0 -58.5992686536657,-34.9652921547546,0 -58.60210637757971,-34.9677493376612,0 -58.588605721534,-34.9773631533004,0 -58.5924214636447,-34.9809044615152,0 -58.57913509031481,-34.9906007640643,0 -58.5652767796835,-34.9782884136385,0 -58.5791470715009,-34.9683570919201,0 -58.5764851739286,-34.9659014419203,0 -58.5898941591739,-34.9564951851513,0 -58.5946249399696,-34.9608942627581,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">584</SimpleData>
+						<SimpleData name="nombre">El Metejon</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.671517676209,-34.9558472745267,0 -58.6709926182182,-34.9564994817236,0 -58.67284556628231,-34.957682428352,0 -58.67305673103269,-34.9574864489596,0 -58.67453321874051,-34.9589356473626,0 -58.6729933368914,-34.9607394640083,0 -58.6695556107005,-34.9587099675631,0 -58.666442588613,-34.962326099218,0 -58.660423419787,-34.9695784159284,0 -58.65709512311789,-34.9675497758459,0 -58.6569013990844,-34.966673371255,0 -58.66252626897399,-34.9601108880221,0 -58.6541085229859,-34.9553491396298,0 -58.65509462831219,-34.9532870685559,0 -58.65686882294371,-34.953910576326,0 -58.6578551352384,-34.9518304575794,0 -58.6624423648577,-34.9544948461365,0 -58.6656358084611,-34.9506363427248,0 -58.6673064225764,-34.951574016912,0 -58.671517676209,-34.9558472745267,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">585</SimpleData>
+						<SimpleData name="nombre">Barrio Parque Vicente Milazzi</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.5797643963643,-34.8455082217537,0 -58.578805476921,-34.8465966142121,0 -58.5760811588931,-34.8454471242847,0 -58.58391198234779,-34.8350563392645,0 -58.5870138018644,-34.8396890946547,0 -58.58184773158061,-34.8464248294998,0 -58.5797643963643,-34.8455082217537,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">586</SimpleData>
+						<SimpleData name="nombre">El Ombu</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.5758623675469,-34.8892118930777,0 -58.58272209806209,-34.8802159594445,0 -58.59148335211089,-34.8846710953029,0 -58.58451971102781,-34.8940178222408,0 -58.5758623675469,-34.8892118930777,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">587</SimpleData>
+						<SimpleData name="nombre">El Venado I</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.483733304428,-34.8699184469077,0 -58.4901732545114,-34.8729728616974,0 -58.48435231667261,-34.8808768415941,0 -58.47794744890351,-34.8776783496263,0 -58.483733304428,-34.8699184469077,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">588</SimpleData>
+						<SimpleData name="nombre">Fincas de Iraola II</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.1877959316481,-34.822715305035,0 -58.1874682394613,-34.8232061095618,0 -58.1843179742163,-34.8253221204922,0 -58.17600998657609,-34.8184654873359,0 -58.17935858914741,-34.8157758581059,0 -58.1877959316481,-34.822715305035,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">589</SimpleData>
+						<SimpleData name="nombre">El Sosiego</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.49169084344689,-34.8713152983689,0 -58.49421581609469,-34.8725813705944,0 -58.50131796738831,-34.8717227783622,0 -58.5011231064895,-34.875830271148,0 -58.4975395376906,-34.8810405615754,0 -58.4877374488009,-34.8763945278459,0 -58.49169084344689,-34.8713152983689,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">590</SimpleData>
+						<SimpleData name="nombre">Fincas de Hudson</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.15788087053839,-34.8238250586267,0 -58.1631928640595,-34.8193721310035,0 -58.1690288235553,-34.8242998164968,0 -58.1638942194475,-34.8286385123883,0 -58.15788087053839,-34.8238250586267,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">591</SimpleData>
+						<SimpleData name="nombre">Altos de Hudson</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.1686784916334,-34.8006277706944,0 -58.1711251775355,-34.8026383119813,0 -58.1689448990491,-34.8043899902009,0 -58.1664527322732,-34.8024598325198,0 -58.1686784916334,-34.8006277706944,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">592</SimpleData>
+						<SimpleData name="nombre">Condominios del Bosque</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.1817086119722,-34.8202271321415,0 -58.1818597450247,-34.8198148166902,0 -58.1819791266247,-34.8198526510945,0 -58.1823476031028,-34.8199933454886,0 -58.18270416630391,-34.8201789232577,0 -58.1830917249932,-34.8204460754566,0 -58.1834115597583,-34.8208113524363,0 -58.18367340883879,-34.821328975107,0 -58.1831553784524,-34.8215285255157,0 -58.1817086119722,-34.8202271321415,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">593</SimpleData>
+						<SimpleData name="nombre">Altos de Hudson II</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.1709183102308,-34.8064830550749,0 -58.1738706851489,-34.8039863662285,0 -58.17714200179429,-34.8067662148619,0 -58.1769616750334,-34.8070158627404,0 -58.1769058760137,-34.8075647891018,0 -58.1745505242443,-34.8094835125216,0 -58.1709183102308,-34.8064830550749,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">594</SimpleData>
+						<SimpleData name="nombre">Abril</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.141591290516,-34.8157995279395,0 -58.1619107474012,-34.7988674136614,0 -58.17126278599839,-34.8067951404726,0 -58.1509493923893,-34.8234495049664,0 -58.141591290516,-34.8157995279395,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">595</SimpleData>
+						<SimpleData name="nombre">Las Acacias de Hudson</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.1591580882327,-34.7963834130301,0 -58.1545020427728,-34.7925456619857,0 -58.1560508607236,-34.7916769079444,0 -58.15695290755949,-34.7909064884246,0 -58.1600293076744,-34.796018067049,0 -58.1591580882327,-34.7963834130301,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">596</SimpleData>
+						<SimpleData name="nombre">Las Fuentes</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.5477244671719,-34.9074816827733,0 -58.5492431548828,-34.9054386574279,0 -58.5540352129279,-34.9077547829479,0 -58.552487709334,-34.909746691809,0 -58.5477244671719,-34.9074816827733,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">597</SimpleData>
+						<SimpleData name="nombre">La Martona</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.68743662323331,-34.9893866468861,0 -58.67792589339789,-34.9964758107122,0 -58.676445702493,-34.9972528225969,0 -58.6727023549493,-34.9970947770249,0 -58.6711784960531,-34.9951493245627,0 -58.6699920442921,-34.9960466416105,0 -58.6684339505005,-34.9921629879201,0 -58.6676635029847,-34.9890180133733,0 -58.6666631920978,-34.9845185591566,0 -58.6667253991604,-34.9833836046219,0 -58.65643674117131,-34.9823868996105,0 -58.6588308113046,-34.9806287994562,0 -58.65442046533281,-34.9764430345854,0 -58.6610194009014,-34.9713064745668,0 -58.6619684161314,-34.972200211441,0 -58.6667351328803,-34.9746771487005,0 -58.6854048250049,-34.9849482822075,0 -58.68743662323331,-34.9893866468861,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">598</SimpleData>
+						<SimpleData name="nombre">La Dolfina Polo Ranch</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.67808065542579,-34.9963873663502,0 -58.70029976652629,-35.0160413367913,0 -58.69129588705061,-35.0228214709244,0 -58.6587582464459,-34.9938049794828,0 -58.6672442121813,-34.9871837731017,0 -58.66837890710521,-34.992180410073,0 -58.6700467983632,-34.9960472415623,0 -58.67128742037099,-34.9951865689186,0 -58.6726251160518,-34.9971299843222,0 -58.6764899418425,-34.997226266018,0 -58.67808065542579,-34.9963873663502,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">599</SimpleData>
+						<SimpleData name="nombre">Lomas Athletic Club</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.5509438097811,-34.8761820084845,0 -58.5407584653779,-34.8683270248793,0 -58.543414809303,-34.8646635510486,0 -58.55496087431139,-34.870993272019,0 -58.5509438097811,-34.8761820084845,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">600</SimpleData>
+						<SimpleData name="nombre">El Rocio</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4789566939954,-34.8644510329027,0 -58.480784259926,-34.8619953328595,0 -58.4936832593738,-34.868203505528,0 -58.49181917546449,-34.8708752575631,0 -58.4789566939954,-34.8644510329027,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">601</SimpleData>
+						<SimpleData name="nombre">Barrio Parque El Trebol</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.54232686829009,-34.8878859821475,0 -58.5321107563882,-34.8829591231486,0 -58.5315407192723,-34.8836462355148,0 -58.5249145404954,-34.8804745597028,0 -58.52782813463829,-34.876553193121,0 -58.5329236961558,-34.8790663248302,0 -58.5407914243574,-34.8683184074936,0 -58.5507145049998,-34.876161248851,0 -58.54232686829009,-34.8878859821475,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">602</SimpleData>
+						<SimpleData name="nombre">Las Golondrinas</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.1588907365076,-34.7833473038507,0 -58.1591238591618,-34.783179593164,0 -58.1559867040085,-34.7803292079035,0 -58.1614177275151,-34.7762926646447,0 -58.16613889375951,-34.780617807618,0 -58.1598600321779,-34.784461490331,0 -58.1588907365076,-34.7833473038507,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">603</SimpleData>
+						<SimpleData name="nombre">El Carmencito</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.1424957077279,-34.7715982239356,0 -58.1533825907733,-34.781506406793,0 -58.1443974370002,-34.7876333980751,0 -58.1319112316723,-34.7760055414728,0 -58.1424957077279,-34.7715982239356,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">604</SimpleData>
+						<SimpleData name="nombre">El Paraiso de Guernica</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.352678176415,-34.9106268687418,0 -58.33425370159729,-34.9014261234996,0 -58.33895093528779,-34.8952446584817,0 -58.3575196642229,-34.9043024343757,0 -58.352678176415,-34.9106268687418,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">605</SimpleData>
+						<SimpleData name="nombre">Gilera</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.60527713463929,-34.911130203485,0 -58.60331076821051,-34.9135321180343,0 -58.6012485975329,-34.9112551425692,0 -58.6007922083817,-34.9110696276347,0 -58.6025034784492,-34.9088721190102,0 -58.60371560999871,-34.9083632983847,0 -58.60527713463929,-34.911130203485,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">606</SimpleData>
+						<SimpleData name="nombre">Los Pinares</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.5684805716931,-34.87171716941,0 -58.56664597527651,-34.8706861214413,0 -58.5608955143336,-34.878148352467,0 -58.5577867266115,-34.8766945345214,0 -58.5559649756735,-34.8790860077505,0 -58.56092429793739,-34.8816332513367,0 -58.5684805716931,-34.87171716941,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">607</SimpleData>
+						<SimpleData name="nombre">El Bosquecillo</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.60331076821051,-34.9135321180343,0 -58.6052774394997,-34.9111121809436,0 -58.6072293905257,-34.9140908414928,0 -58.6042233154402,-34.9177967462888,0 -58.5989010667757,-34.9135444395356,0 -58.5995952358238,-34.9126150891864,0 -58.59984156486529,-34.9122844465754,0 -58.59999823520459,-34.9120789525742,0 -58.6008028417464,-34.9110877761104,0 -58.60127017025361,-34.9112734169345,0 -58.60331076821051,-34.9135321180343,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">608</SimpleData>
+						<SimpleData name="nombre">La arboleda de El Trebol</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.5388995417474,-34.8862405217112,0 -58.5395600515022,-34.8853832152853,0 -58.5412191679995,-34.8861962804426,0 -58.5406239640193,-34.8870724060022,0 -58.5388995417474,-34.8862405217112,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">609</SimpleData>
+						<SimpleData name="nombre">Alla en el Sur</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.5085302764136,-34.8544615439039,0 -58.5072072455217,-34.8538594655346,0 -58.50906832223929,-34.8513045905566,0 -58.5103799089748,-34.8519335472575,0 -58.5085302764136,-34.8544615439039,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">610</SimpleData>
+						<SimpleData name="nombre">Los Naranjos</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4843195127731,-34.8808764325478,0 -58.4768335545821,-34.8912197657866,0 -58.4704051656125,-34.8880836695973,0 -58.4779255805493,-34.8776780757994,0 -58.4843195127731,-34.8808764325478,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">611</SimpleData>
+						<SimpleData name="nombre">Las Terrazas</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.24834034066929,-34.7272118412324,0 -58.2475555024387,-34.7281919501072,0 -58.24676778346169,-34.72775701384,0 -58.247519697189,-34.7267854490053,0 -58.24834034066929,-34.7272118412324,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">612</SimpleData>
+						<SimpleData name="nombre">La Deseada</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.5275928554511,-34.7441936507263,0 -58.5280386859821,-34.7442981855598,0 -58.5283225234083,-34.744301616396,0 -58.5289348243878,-34.7442549363433,0 -58.5292416136384,-34.7441955502829,0 -58.52970011995459,-34.7442010875316,0 -58.5300704935547,-34.7442506249097,0 -58.53043943110431,-34.7443812621768,0 -58.5307722680723,-34.7447007388849,0 -58.53089513275881,-34.7451618919169,0 -58.5278974357919,-34.749181601037,0 -58.52418931801451,-34.7476946103313,0 -58.52370043484851,-34.7469405935288,0 -58.52642616440839,-34.7434855252474,0 -58.527440979794,-34.7441377352591,0 -58.5275928554511,-34.7441936507263,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">614</SimpleData>
+						<SimpleData name="nombre">La Tacuara</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.6920147683042,-34.9935009345459,0 -58.6878454268777,-34.9967096320243,0 -58.6863163229948,-34.9964407280506,0 -58.6856986034706,-34.9967134440571,0 -58.6849422656165,-34.9967503170282,0 -58.6845973148339,-34.9964040851275,0 -58.6839963125413,-34.9963164534883,0 -58.6834754320756,-34.9960133758924,0 -58.6826247308367,-34.9957878339146,0 -58.6814835667907,-34.9952346631471,0 -58.6810782442341,-34.9952392726071,0 -58.68080722328451,-34.9950650804022,0 -58.68035694127039,-34.9951413028224,0 -58.6800190602273,-34.9950384859568,0 -58.679656383586,-34.9951156584182,0 -58.6835575167944,-34.9922558431488,0 -58.6849610272532,-34.9935238644308,0 -58.6887086015768,-34.990662216203,0 -58.6920147683042,-34.9935009345459,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">615</SimpleData>
+						<SimpleData name="nombre">El Palomar</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.7354639689243,-35.0432626421006,0 -58.7370428036886,-35.0446400526204,0 -58.7340247983097,-35.0470421022616,0 -58.7333220640134,-35.0449978299282,0 -58.7354639689243,-35.0432626421006,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">616</SimpleData>
+						<SimpleData name="nombre">La Cupla</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.7466871346395,-34.9886338432739,0 -58.7473134219828,-34.9899381925604,0 -58.7480255198741,-34.9920816406903,0 -58.7478506731197,-34.9963700647203,0 -58.745991397952,-34.9969096813319,0 -58.7430762144401,-34.9991688492146,0 -58.7303634856748,-35.0088337198866,0 -58.724948498375,-35.0048202261837,0 -58.7466871346395,-34.9886338432739,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">617</SimpleData>
+						<SimpleData name="nombre">Campos de Echeverria</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4916298520054,-34.8782454717633,0 -58.4994808007115,-34.8819478072932,0 -58.49569172108039,-34.884009992593,0 -58.489544132181,-34.8810586367456,0 -58.4916298520054,-34.8782454717633,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">618</SimpleData>
+						<SimpleData name="nombre">Los Rosales</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4916296873585,-34.8782544826285,0 -58.4895219330254,-34.8810763866862,0 -58.49568078597489,-34.8840098572546,0 -58.4932170890035,-34.8853583141531,0 -58.4843075853664,-34.8809303611816,0 -58.48771574575,-34.8763852449369,0 -58.4916296873585,-34.8782544826285,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">619</SimpleData>
+						<SimpleData name="nombre">Circulo Hebreo Argentino</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4764690247063,-34.8677095936073,0 -58.47919506871821,-34.8639763307881,0 -58.4736146971285,-34.861211539295,0 -58.4708186040974,-34.8598605197339,0 -58.468093167182,-34.863548536868,0 -58.4737380959036,-34.8663684685155,0 -58.4737707273572,-34.8663778910764,0 -58.4764690247063,-34.8677095936073,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">620</SimpleData>
+						<SimpleData name="nombre">Mi Refugio I</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.49989727358749,-34.8596279190641,0 -58.49776515378769,-34.8626299423631,0 -58.4934307034498,-34.8604672819416,0 -58.495483772414,-34.8576085639868,0 -58.49989727358749,-34.8596279190641,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">621</SimpleData>
+						<SimpleData name="nombre">Mi Refugio II</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4870214540605,-34.853393659169,0 -58.4955057997313,-34.8575998236085,0 -58.4934977743244,-34.8603869966016,0 -58.4934307034498,-34.8604672819416,0 -58.48491272480089,-34.8562966045672,0 -58.4870214540605,-34.853393659169,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">622</SimpleData>
+						<SimpleData name="nombre">El Pato</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.1838979988155,-34.9075723376375,0 -58.1805905923753,-34.904756054951,0 -58.1836128219789,-34.9021426202838,0 -58.18757308337481,-34.9056174540727,0 -58.18397559139009,-34.9085197972292,0 -58.18341859862841,-34.9079797401254,0 -58.1838979988155,-34.9075723376375,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">623</SimpleData>
+						<SimpleData name="nombre">San Eliseo</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4742360386602,-34.9925180409592,0 -58.4808287964503,-34.9872021048533,0 -58.48922673336231,-34.9944450132885,0 -58.48601147129239,-34.9971628477724,0 -58.494952806518,-35.0047185788006,0 -58.4891219554433,-35.0096752287606,0 -58.4881412781161,-35.0099874729939,0 -58.4835622806172,-35.0058385654667,0 -58.472591447129,-35.0144162622104,0 -58.47067817507269,-35.0124454227086,0 -58.48481764432151,-35.0013208446581,0 -58.4742360386602,-34.9925180409592,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">624</SimpleData>
+						<SimpleData name="nombre">CISSAB</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.58341615243599,-34.8792866942254,0 -58.580774628167,-34.8827980024815,0 -58.5770578243244,-34.8807806962047,0 -58.575011903381,-34.8833524786656,0 -58.5693950081457,-34.8805375303631,0 -58.5738634729009,-34.8744882211224,0 -58.58341615243599,-34.8792866942254,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">625</SimpleData>
+						<SimpleData name="nombre">Chacras de Uribelarrea</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.9211812545887,-35.0981439180914,0 -58.914112037005,-35.1036058433806,0 -58.9094857844496,-35.0993371663677,0 -58.90822188995999,-35.1003622981064,0 -58.9034955125029,-35.0962367028138,0 -58.9066755970765,-35.0937868167927,0 -58.91129042901591,-35.0980554980214,0 -58.9165326397458,-35.0939023462144,0 -58.9211812545887,-35.0981439180914,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">626</SimpleData>
+						<SimpleData name="nombre">Chacras de San Vicente</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4766078597372,-35.0394318787494,0 -58.4822598522162,-35.0437116424056,0 -58.4845828600909,-35.0449123331717,0 -58.4747461434774,-35.0487996709461,0 -58.4739204119706,-35.0495914100731,0 -58.4696277753372,-35.0458781913945,0 -58.4617224565777,-35.0525106278039,0 -58.4515782224924,-35.0441350003618,0 -58.45680369108461,-35.0354953878165,0 -58.45728735237789,-35.0359972347286,0 -58.4668084015255,-35.0366496868856,0 -58.4766078597372,-35.0394318787494,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">627</SimpleData>
+						<SimpleData name="nombre">Puerto Trinidad</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.1263216395176,-34.749792462952,0 -58.1294397625831,-34.7500026383215,0 -58.1319327690521,-34.7493649810986,0 -58.133973492449,-34.7499009781382,0 -58.1344538301625,-34.7523327022507,0 -58.1343570333504,-34.7551791676644,0 -58.1337453961082,-34.7571255030356,0 -58.1339681503961,-34.7574173176401,0 -58.1394813262357,-34.7560236565706,0 -58.1609442901679,-34.7759700732729,0 -58.1533933095886,-34.7815155819398,0 -58.12937579167679,-34.7591313038515,0 -58.13176011461481,-34.7584829728811,0 -58.1329243238456,-34.7586720726599,0 -58.1235167249554,-34.7502179097522,0 -58.1243999361929,-34.7497899086515,0 -58.1263216395176,-34.749792462952,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">628</SimpleData>
+						<SimpleData name="nombre">La Casona</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.73417683571681,-35.0428706722454,0 -58.73501997690391,-35.0436275460183,0 -58.7333220640134,-35.0449978299282,0 -58.7330343152774,-35.0437600447068,0 -58.73417683571681,-35.0428706722454,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">629</SimpleData>
+						<SimpleData name="nombre">El JagÃ¼el</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.5049481766339,-34.8385186709969,0 -58.5053921692253,-34.8375417130211,0 -58.50724362150391,-34.8385288415473,0 -58.5068321807376,-34.8413358414629,0 -58.5067403496995,-34.8415780644042,0 -58.5064919006081,-34.8414127798295,0 -58.50649173780601,-34.8414217908108,0 -58.5041400836577,-34.8396804217781,0 -58.5049481766339,-34.8385186709969,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">630</SimpleData>
+						<SimpleData name="nombre">San Jorge New Field</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.2423967979291,-34.722809111219,0 -58.24434008362789,-34.7238285408741,0 -58.2437790151074,-34.7245504822304,0 -58.2418472051451,-34.7235041710578,0 -58.2423967979291,-34.722809111219,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">631</SimpleData>
+						<SimpleData name="nombre">Altos del Carmen</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.758787076304,-35.0380596505903,0 -58.76074481009439,-35.0397651019775,0 -58.7578166871714,-35.0420785429283,0 -58.7557599382159,-35.0403990685379,0 -58.758787076304,-35.0380596505903,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">632</SimpleData>
+						<SimpleData name="nombre">Club de Chacras Chaparral</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.5897957068419,-35.137552379701,0 -58.6211965882465,-35.1629060183677,0 -58.61036703622931,-35.171127989803,0 -58.614797153083,-35.1746125653663,0 -58.6121022767919,-35.1768799399773,0 -58.60798949042859,-35.1734529906207,0 -58.6001846925716,-35.1798881848024,0 -58.5818858425455,-35.1640744272448,0 -58.57674791660949,-35.1679436678234,0 -58.5647133572261,-35.1576264079018,0 -58.5897957068419,-35.137552379701,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">633</SimpleData>
+						<SimpleData name="nombre">Altos de Adrogue</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.3964442469606,-34.8029056153345,0 -58.39610909868539,-34.8027209403282,0 -58.39603088590039,-34.802810037957,0 -58.39529662275069,-34.8023587253298,0 -58.3953750105182,-34.8022606176116,0 -58.3954074325452,-34.8022790709397,0 -58.3955754805,-34.8020649782059,0 -58.39595344707501,-34.8022952835039,0 -58.3962779174509,-34.8019029944847,0 -58.3969587846489,-34.8022905076361,0 -58.3964442469606,-34.8029056153345,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">634</SimpleData>
+						<SimpleData name="nombre">El EnsueÃ±o</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.7535316592924,-35.0384744457345,0 -58.7578161414787,-35.0421145894483,0 -58.7547770450087,-35.0445079351409,0 -58.7504723117007,-35.0407593206915,0 -58.7535316592924,-35.0384744457345,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">635</SimpleData>
+						<SimpleData name="nombre">Brickland</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4764690247063,-34.8677095936073,0 -58.4752907968581,-34.8693351696751,0 -58.46690390758991,-34.8651738922054,0 -58.468093167182,-34.863548536868,0 -58.4764690247063,-34.8677095936073,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">636</SimpleData>
+						<SimpleData name="nombre">Casco Viejo</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4673733992833,-34.870515441053,0 -58.465164627571,-34.8734437982389,0 -58.4632796324885,-34.8724826446719,0 -58.46542234213891,-34.8695805266281,0 -58.4673733992833,-34.870515441053,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">637</SimpleData>
+						<SimpleData name="nombre">Club Social Israelita Sefardi (CSIS)</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.44884094942721,-34.8493615087887,0 -58.44504257836309,-34.8548378886119,0 -58.4421392411258,-34.8534127424908,0 -58.4427024234197,-34.8525366954524,0 -58.4444522209159,-34.850188706984,0 -58.4450688089974,-34.8505390826281,0 -58.4466412430629,-34.8483149726595,0 -58.44884094942721,-34.8493615087887,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">638</SimpleData>
+						<SimpleData name="nombre">Campo Azul</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4962536346735,-34.9221864951465,0 -58.4936470961629,-34.9252996878944,0 -58.48828339378179,-34.9218081810145,0 -58.49017002319,-34.919172852405,0 -58.4962536346735,-34.9221864951465,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">639</SimpleData>
+						<SimpleData name="nombre">Los Nuevos Ombues</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.27588240456309,-34.8898148836403,0 -58.2811022537217,-34.8944221452905,0 -58.2811987944562,-34.8945136364188,0 -58.2784971353255,-34.8966023569831,0 -58.2747820173809,-34.893791829018,0 -58.27588240456309,-34.8898148836403,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">640</SimpleData>
+						<SimpleData name="nombre">Hudson Park</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.1577521025079,-34.8178298296019,0 -58.1712854284784,-34.8067594308755,0 -58.17488029193211,-34.809733465384,0 -58.16135624656751,-34.820876499464,0 -58.1577521025079,-34.8178298296019,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">641</SimpleData>
+						<SimpleData name="nombre">Barrio Parque Las Naciones</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.3899014784446,-34.944103278998,0 -58.38987976957259,-34.9440939785263,0 -58.3898038766545,-34.9440569216805,0 -58.3788668544142,-34.9386300089656,0 -58.3799254309019,-34.9270989079902,0 -58.3963798374652,-34.9351763101504,0 -58.395211565892,-34.9367200749838,0 -58.39785712604409,-34.9379987513454,0 -58.3921161957949,-34.9455926725476,0 -58.3896669278735,-34.9443435112149,0 -58.3899014784446,-34.944103278998,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">642</SimpleData>
+						<SimpleData name="nombre">Britajim</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.3831343220457,-34.9531702276399,0 -58.385389757646,-34.9542637293744,0 -58.3827128908122,-34.9579052641479,0 -58.38044556428461,-34.9568566169338,0 -58.3831343220457,-34.9531702276399,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">643</SimpleData>
+						<SimpleData name="nombre">Sin Nombre21</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.81517247205269,-35.0628415738448,0 -58.8171160023998,-35.0633742896439,0 -58.8128671468062,-35.0668568806193,0 -58.811535552362,-35.0656991808942,0 -58.81517247205269,-35.0628415738448,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">644</SimpleData>
+						<SimpleData name="nombre">Los Robles</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4001881779668,-34.8172402933927,0 -58.4032533963867,-34.8186685469079,0 -58.4024231238439,-34.8197842526377,0 -58.3993811264748,-34.8182841807704,0 -58.4001881779668,-34.8172402933927,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">645</SimpleData>
+						<SimpleData name="nombre">Quintas del Sol</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.6336578523861,-34.8979961467133,0 -58.6315344092102,-34.900703215121,0 -58.6266639256475,-34.8982057314109,0 -58.62877861823821,-34.8953724664918,0 -58.6336578523861,-34.8979961467133,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">646</SimpleData>
+						<SimpleData name="nombre">La Esperanza</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.5024886977696,-34.863850884678,0 -58.50210212944771,-34.8700920892605,0 -58.5024142601571,-34.8715740559677,0 -58.49424894550201,-34.8725637551177,0 -58.4916252430223,-34.8713144844212,0 -58.4983893202216,-34.8619797083539,0 -58.5024886977696,-34.863850884678,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">647</SimpleData>
+						<SimpleData name="nombre">Amaneceres</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.501180935638,-34.8624017115496,0 -58.5011330954201,-34.8632303125554,0 -58.4994632602199,-34.862452627643,0 -58.4999121699412,-34.8618182483531,0 -58.5008759768327,-34.8623348610657,0 -58.501180935638,-34.8624017115496,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">648</SimpleData>
+						<SimpleData name="nombre">Pergolas de Canning</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.5096148243715,-34.8604053718919,0 -58.5099295364864,-34.8599315424217,0 -58.51082893216899,-34.8603841967254,0 -58.5104817519311,-34.8608396048524,0 -58.5096148243715,-34.8604053718919,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">649</SimpleData>
+						<SimpleData name="nombre">Circulo de Quintas Los Ombues</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.2827379790398,-34.895716042743,0 -58.2797062137035,-34.8931766823723,0 -58.2821115472871,-34.8911288060404,0 -58.2947491023597,-34.8978138776948,0 -58.2885263222203,-34.9024850281481,0 -58.28177345303181,-34.8963332878114,0 -58.2827379790398,-34.895716042743,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">650</SimpleData>
+						<SimpleData name="nombre">El Centauro</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.49042111901871,-34.8606102104834,0 -58.4912957019944,-34.8594223461964,0 -58.49776482602309,-34.8626479641906,0 -58.4969687932372,-34.8637286911297,0 -58.49662190785759,-34.8635621693341,0 -58.4965894386813,-34.863543741958,0 -58.49042111901871,-34.8606102104834,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">651</SimpleData>
+						<SimpleData name="nombre">Santa Rita</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.46726952710939,-34.9702499392817,0 -58.4670970709918,-34.96716540227,0 -58.4726268011142,-34.9629990924583,0 -58.4764183822689,-34.9663544127437,0 -58.4692417031141,-34.9719421787823,0 -58.46726952710939,-34.9702499392817,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">652</SimpleData>
+						<SimpleData name="nombre">El Rodal</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4933710467295,-34.8433509560061,0 -58.4918919908053,-34.8453244859618,0 -58.4933008957745,-34.8459998962544,0 -58.49365936189869,-34.8455266504943,0 -58.4944671674528,-34.8443920084695,0 -58.4958865169972,-34.8450945571375,0 -58.4946551733867,-34.846674614223,0 -58.49623720533879,-34.8474512765203,0 -58.4947576470746,-34.8494518726954,0 -58.48905927085579,-34.846587187353,0 -58.4905372649478,-34.8446767709478,0 -58.4919509270951,-34.8426934336912,0 -58.4933710467295,-34.8433509560061,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">653</SimpleData>
+						<SimpleData name="nombre">Campo Daromy</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.40870346874419,-35.0076018755839,0 -58.4081073478377,-35.0084051917505,0 -58.40261635016731,-35.0102527192025,0 -58.3999177447068,-35.0048276340233,0 -58.4044377931728,-35.0033279657958,0 -58.40870346874419,-35.0076018755839,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">654</SimpleData>
+						<SimpleData name="nombre">Rincon de Campana</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.6552299104586,-34.9148298673141,0 -58.66315032531491,-34.9142503013048,0 -58.6629256283135,-34.9206831727455,0 -58.665388322832,-34.9206471585726,0 -58.6653885685581,-34.9287409067776,0 -58.6626196993847,-34.9287465086441,0 -58.6626961064208,-34.9260614541988,0 -58.6551505336648,-34.9264017735643,0 -58.655226416768,-34.9251047321836,0 -58.6522897257337,-34.9253425817509,0 -58.6522073179569,-34.924359243722,0 -58.6433048733926,-34.9247017937636,0 -58.6433555696369,-34.9222868616794,0 -58.6470855283364,-34.9223825335061,0 -58.6471720417424,-34.9191117554344,0 -58.6514555251925,-34.9188078653504,0 -58.6514947063185,-34.9157438556614,0 -58.6551952417893,-34.9156136215571,0 -58.6552299104586,-34.9148298673141,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">655</SimpleData>
+						<SimpleData name="nombre">Chacras Urbanas I</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.44963349003551,-35.0293204359624,0 -58.440012718369,-35.0207072118482,0 -58.4463257465164,-35.0159394090794,0 -58.447910545276,-35.0172935635465,0 -58.4495329276066,-35.0160795712655,0 -58.456122215664,-35.021625262262,0 -58.4577297016245,-35.022952541525,0 -58.44963349003551,-35.0293204359624,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">656</SimpleData>
+						<SimpleData name="nombre">Chacras Urbanas II</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.45155597001489,-35.0441527415403,0 -58.4510297333536,-35.0441640479205,0 -58.446061841549,-35.0478227147341,0 -58.4327107383145,-35.0359165312621,0 -58.44086879591011,-35.0298570237426,0 -58.4416545976748,-35.0305971425657,0 -58.4435676152379,-35.0290985659972,0 -58.4518341570927,-35.0311510666084,0 -58.4568252623201,-35.035513687502,0 -58.45155597001489,-35.0441527415403,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">657</SimpleData>
+						<SimpleData name="nombre">Lomas de Quilmes</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.2187586536856,-34.7469711303455,0 -58.2195001688258,-34.7459407491321,0 -58.2196697195413,-34.7460043625946,0 -58.22046502386179,-34.7447839032537,0 -58.2217924197771,-34.7454499076603,0 -58.2230039957261,-34.7460507874857,0 -58.2213055394264,-34.7483692771751,0 -58.2187586536856,-34.7469711303455,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">658</SimpleData>
+						<SimpleData name="nombre">Polo y Equitacion</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4529551110455,-35.0088770667338,0 -58.4578193851445,-35.0117599487822,0 -58.462925236285,-35.0058493192496,0 -58.4681951660441,-35.0104853885635,0 -58.455022283235,-35.0206919702703,0 -58.4495329276066,-35.0160795712655,0 -58.44783945303939,-35.0146789843472,0 -58.4529551110455,-35.0088770667338,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">659</SimpleData>
+						<SimpleData name="nombre">Golf</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.45772987087739,-35.022943531017,0 -58.45504418936441,-35.0206922492045,0 -58.46823914115349,-35.0104769309617,0 -58.4693276403672,-35.0114369985548,0 -58.45850939852791,-35.0321914078066,0 -58.45717491370941,-35.0326521142794,0 -58.4483344773624,-35.0302231177396,0 -58.45772987087739,-35.022943531017,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">660</SimpleData>
+						<SimpleData name="nombre">Santa Rita II</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.479110059607,-34.9581504830975,0 -58.482849628156,-34.9613607494752,0 -58.476417881713,-34.9663814447564,0 -58.47259396469801,-34.9629986794068,0 -58.479110059607,-34.9581504830975,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">661</SimpleData>
+						<SimpleData name="nombre">Santo Domingo</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4677571255524,-34.9793409361826,0 -58.4636913847118,-34.9824440058137,0 -58.4609000370971,-34.980047314307,0 -58.4621989448603,-34.9790994136315,0 -58.45759751330129,-34.9751385292787,0 -58.462472312602,-34.9715051431084,0 -58.4676255447327,-34.9758243081582,0 -58.4677571255524,-34.9793409361826,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">662</SimpleData>
+						<SimpleData name="nombre">Mirasoles de Monte Grande</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4889374298692,-34.798807860737,0 -58.4897780702956,-34.79884533637,0 -58.4904515684885,-34.7990609930596,0 -58.4909269622786,-34.7993553064326,0 -58.4907055276834,-34.7995147942323,0 -58.49307729960509,-34.8012746901724,0 -58.4939440195386,-34.8016819940592,0 -58.4946178799709,-34.8018796064785,0 -58.4946761058501,-34.8016820404494,0 -58.4964386290838,-34.8021004061252,0 -58.4976261055724,-34.8022953348263,0 -58.4918732021663,-34.8103899493823,0 -58.4860494385776,-34.8073613547012,0 -58.4856273234343,-34.8071397893895,0 -58.4834836777329,-34.8060495549853,0 -58.4834513988098,-34.8060221136522,0 -58.4846508636002,-34.8043696539759,0 -58.48291879474219,-34.8034828215315,0 -58.4826589215987,-34.8033533989853,0 -58.4821501021306,-34.8030946885642,0 -58.4821398386718,-34.8030585085343,0 -58.4826214771513,-34.8024155801,0 -58.4833829804486,-34.8014066052461,0 -58.48374162936,-34.8009153599516,0 -58.4855814706937,-34.7982974619779,0 -58.4868817789141,-34.7988904714024,0 -58.4889374298692,-34.798807860737,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">663</SimpleData>
+						<SimpleData name="nombre">San Cirano</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.50054589583961,-34.9160206717239,0 -58.49460724025981,-34.912873848242,0 -58.4932305130828,-34.9121718052563,0 -58.49908427548559,-34.904348977058,0 -58.5060363388977,-34.9076973146099,0 -58.50054589583961,-34.9160206717239,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">664</SimpleData>
+						<SimpleData name="nombre">Sin Nombre22</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.5754920794181,-34.8827812738204,0 -58.5770470445884,-34.880771556989,0 -58.580774628167,-34.8827980024815,0 -58.5792648507071,-34.8847271780503,0 -58.5754920794181,-34.8827812738204,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">665</SimpleData>
+						<SimpleData name="nombre">Cruz del Sur</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4654759434268,-34.9601600412958,0 -58.46429998251,-34.9557108972641,0 -58.4664640349864,-34.9541339730666,0 -58.4746826130318,-34.9613575729181,0 -58.4704626228917,-34.9645761213138,0 -58.4654759434268,-34.9601600412958,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">666</SimpleData>
+						<SimpleData name="nombre">Chacras de La Trinidad</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.6556175576432,-35.013057962327,0 -58.66167929544341,-35.02896971222,0 -58.6504970735317,-35.0399948165927,0 -58.6363453544372,-35.0270562859942,0 -58.6556175576432,-35.013057962327,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">667</SimpleData>
+						<SimpleData name="nombre">Barrancas de Iraola</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.1878676612483,-34.8214365986922,0 -58.1880101527829,-34.8219163841055,0 -58.1879107112594,-34.8224646651459,0 -58.1878068569416,-34.822715467816,0 -58.1793699099947,-34.8157580025632,0 -58.1804271392049,-34.8148905973875,0 -58.1874673129775,-34.8207546958008,0 -58.1878676612483,-34.8214365986922,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">668</SimpleData>
+						<SimpleData name="nombre">Hudson Chico</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.1447818295684,-34.7958315896881,0 -58.1454440280432,-34.7965086072085,0 -58.1454551514272,-34.7964997643002,0 -58.14724743135369,-34.7954996494961,0 -58.1456439196394,-34.7939250774874,0 -58.1439916145195,-34.7950174290277,0 -58.1447818295684,-34.7958315896881,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">669</SimpleData>
+						<SimpleData name="nombre">Nuevo Quilmes</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.287906428723,-34.6994382222878,0 -58.28549143473779,-34.7001252857149,0 -58.28150494424061,-34.6965901657765,0 -58.2816450659194,-34.6956187565932,0 -58.2930381990171,-34.6902720620089,0 -58.2983175632312,-34.6946270193683,0 -58.289212955914,-34.7001145136803,0 -58.2878472827445,-34.6991309546526,0 -58.287906428723,-34.6994382222878,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">670</SimpleData>
+						<SimpleData name="nombre">Country Rivera Quilmes</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.20290305567471,-34.730398209744,0 -58.2007132592659,-34.7291852172275,0 -58.2022853959131,-34.7266578557006,0 -58.2037073942491,-34.7234973708067,0 -58.2056675009021,-34.7222014044059,0 -58.2200357689435,-34.7296854856124,0 -58.21320748002259,-34.7360205289395,0 -58.20290305567471,-34.730398209744,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">671</SimpleData>
+						<SimpleData name="nombre">Riomanso</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.7848533584949,-35.0464713395556,0 -58.79307214160571,-35.0532410780837,0 -58.7893360072658,-35.0561150587597,0 -58.7848696664459,-35.0549888313811,0 -58.7825553062976,-35.0528836118073,0 -58.78093816676209,-35.0540210387152,0 -58.7771166208758,-35.0530362018974,0 -58.775072503298,-35.0519340123991,0 -58.77342564461699,-35.0506555458865,0 -58.77202815014819,-35.0488297868893,0 -58.7698225247933,-35.0468155585133,0 -58.7760201234489,-35.0420472591044,0 -58.782891060344,-35.0479838852682,0 -58.7848533584949,-35.0464713395556,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">672</SimpleData>
+						<SimpleData name="nombre">Campos de CaÃ±uelas</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.81680389824591,-35.0409376889747,0 -58.8126441075264,-35.0375892416203,0 -58.8239166186756,-35.0286769130189,0 -58.82792125027191,-35.0321496634216,0 -58.81680389824591,-35.0409376889747,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">673</SimpleData>
+						<SimpleData name="nombre">Chacras del Alba</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.7681837651099,-35.090241595816,0 -58.76275425772609,-35.0852652288396,0 -58.7653726564993,-35.0832279481639,0 -58.7710113139968,-35.0881522420714,0 -58.7681837651099,-35.090241595816,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">674</SimpleData>
+						<SimpleData name="nombre">Lomas de Petion</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.6769526655266,-34.9684707878373,0 -58.6808040946035,-34.9706848346493,0 -58.67475747860421,-34.9776401326261,0 -58.671035965678,-34.9755084337071,0 -58.6769526655266,-34.9684707878373,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">675</SimpleData>
+						<SimpleData name="nombre">Sin Nombre19</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.6366650041906,-34.8941002145763,0 -58.6353932821627,-34.8955911270746,0 -58.6305554847535,-34.8931121927986,0 -58.6317839539451,-34.8915938048099,0 -58.6366650041906,-34.8941002145763,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">676</SimpleData>
+						<SimpleData name="nombre">Canning Village</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.46420907012601,-34.8689613420715,0 -58.4655129569015,-34.8670580629568,0 -58.4739650603769,-34.8712472942311,0 -58.4725739934198,-34.8731405563008,0 -58.46420907012601,-34.8689613420715,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">677</SimpleData>
+						<SimpleData name="nombre">La Bonita de Canning</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.507540404695,-34.8705194930598,0 -58.509761583425,-34.8716643468683,0 -58.50801573454191,-34.8738691284847,0 -58.5059696246783,-34.8727173814855,0 -58.507540404695,-34.8705194930598,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">678</SimpleData>
+						<SimpleData name="nombre">Lunas del Sur</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.3230561546965,-34.8904389285553,0 -58.32566420813829,-34.8869689709177,0 -58.3301872877024,-34.8893835009189,0 -58.3276332862357,-34.8928903505138,0 -58.3230561546965,-34.8904389285553,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">679</SimpleData>
+						<SimpleData name="nombre">La Providencia</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.528972336209,-34.9295360178835,0 -58.5289071710145,-34.929508190074,0 -58.52869011493251,-34.9294064195223,0 -58.52664297782799,-34.9284442319607,0 -58.5212214850381,-34.9302981347833,0 -58.5301282919364,-34.9444843554162,0 -58.5379837309802,-34.9545474103481,0 -58.5456366556938,-34.9464375789632,0 -58.5360550596608,-34.9368048574247,0 -58.53723376511099,-34.935142659742,0 -58.5381093161394,-34.9339094206049,0 -58.528972336209,-34.9295360178835,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">680</SimpleData>
+						<SimpleData name="nombre">Fincas del Alba</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.5104466507496,-34.9445600163757,0 -58.52450215356649,-34.935935025644,0 -58.5265249053366,-34.9391050735581,0 -58.513637907887,-34.9478617636121,0 -58.5104466507496,-34.9445600163757,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">681</SimpleData>
+						<SimpleData name="nombre">El Candil</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4303658795026,-34.9780070320925,0 -58.4358723402713,-34.9734726178149,0 -58.43734892654921,-34.9747083464674,0 -58.4428857494409,-34.9702731339554,0 -58.4508007935036,-34.9773051669985,0 -58.44525396964869,-34.9816865311004,0 -58.4425418808783,-34.9791822870965,0 -58.4368285677125,-34.9836512476807,0 -58.4303658795026,-34.9780070320925,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">682</SimpleData>
+						<SimpleData name="nombre">La Celia</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.5919576430628,-34.8215579672597,0 -58.5936699128534,-34.8224159955101,0 -58.590976080275,-34.8259269796436,0 -58.5892733129511,-34.8251501416343,0 -58.5919576430628,-34.8215579672597,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">683</SimpleData>
+						<SimpleData name="nombre">Tiempos de Canning</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4594200949692,-34.9614262594674,0 -58.46354166479971,-34.9582158646474,0 -58.4642382802831,-34.9590177996101,0 -58.4665720291935,-34.9677265755734,0 -58.462279485477,-34.9712773825714,0 -58.4501536991193,-34.9605062051088,0 -58.4544550840078,-34.9570640862141,0 -58.4594200949692,-34.9614262594674,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">684</SimpleData>
+						<SimpleData name="nombre">El Rebenque</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4835358129223,-34.9342137530132,0 -58.4805933844783,-34.9365022885114,0 -58.47019074965531,-34.9285395901679,0 -58.4729732302805,-34.9260239732532,0 -58.4835358129223,-34.9342137530132,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">685</SimpleData>
+						<SimpleData name="nombre">Malibu</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4742903840275,-34.9411730254868,0 -58.46466383713749,-34.9338505004555,0 -58.4664909615463,-34.9321160860778,0 -58.4715717840881,-34.9360916789833,0 -58.4732406250827,-34.9346255546473,0 -58.47811919282861,-34.938318938859,0 -58.4742903840275,-34.9411730254868,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">686</SimpleData>
+						<SimpleData name="nombre">Adrogue Chico</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.40686372976611,-34.8082519406793,0 -58.4118144723317,-34.8107688853137,0 -58.4133175674215,-34.8086506697651,0 -58.4139763008567,-34.8090472533123,0 -58.4120010202099,-34.8122093520773,0 -58.41090258387241,-34.812537091041,0 -58.4056942420006,-34.8099670927276,0 -58.40686372976611,-34.8082519406793,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">687</SimpleData>
+						<SimpleData name="nombre">Lagos de San Eliseo</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4601757638763,-35.0035162285789,0 -58.4698238769929,-34.9959684450604,0 -58.4693598244591,-35.0114734552834,0 -58.4601757638763,-35.0035162285789,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">688</SimpleData>
+						<SimpleData name="nombre">Sin Nombre11</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.16815745813601,-34.8152832392307,0 -58.1746600333606,-34.8098112730307,0 -58.1803727162717,-34.8148807707862,0 -58.1740953505447,-34.820049994979,0 -58.16815745813601,-34.8152832392307,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">689</SimpleData>
+						<SimpleData name="nombre">Sain George</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.2447923994272,-34.7267011081195,0 -58.2457729148939,-34.7273100760789,0 -58.2449419167911,-34.728406668065,0 -58.23624582554211,-34.7235763950614,0 -58.2383832813389,-34.7216155204111,0 -58.2456011748744,-34.7256222219626,0 -58.2447923994272,-34.7267011081195,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">690</SimpleData>
+						<SimpleData name="nombre">Los Nogales</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.5569769913524,-34.88328391612,0 -58.5580808394854,-34.882080261448,0 -58.5590197704191,-34.8828034228465,0 -58.5579607693578,-34.8839445270803,0 -58.5569769913524,-34.88328391612,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">691</SimpleData>
+						<SimpleData name="nombre">Laguna del Sauce</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.33532448065881,-35.0205507681924,0 -58.3436047572641,-35.0130485346967,0 -58.3409828675248,-35.0110660162099,0 -58.3434134714972,-35.008954247005,0 -58.3514861443709,-35.0149763924447,0 -58.3414640396208,-35.0235819317737,0 -58.3388632964662,-35.0237896882278,0 -58.33532448065881,-35.0205507681924,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">692</SimpleData>
+						<SimpleData name="nombre">Club Longchamps</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.39477370907,-34.8490202909776,0 -58.3961652217918,-34.8471730016563,0 -58.3964464222227,-34.8473299279787,0 -58.3969751504525,-34.8465617976214,0 -58.3971821145822,-34.8466005770447,0 -58.3974686538037,-34.8470459813345,0 -58.3986928863998,-34.8476209034037,0 -58.39693837597,-34.8501484104515,0 -58.39477370907,-34.8490202909776,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">693</SimpleData>
+						<SimpleData name="nombre">Terralagos</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.5145719028998,-34.9069907986821,0 -58.5251816716276,-34.8924560048156,0 -58.5383587814749,-34.898861169749,0 -58.52769315699099,-34.9135406496225,0 -58.5145719028998,-34.9069907986821,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">694</SimpleData>
+						<SimpleData name="nombre">Sin Identificar V</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4894618619,-34.9780717622829,0 -58.5000011609548,-34.9699737656282,0 -58.5050347661516,-34.9743529788167,0 -58.4943634959616,-34.9824768080104,0 -58.4894618619,-34.9780717622829,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">695</SimpleData>
+						<SimpleData name="nombre">Sin Identificar VI</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4612146304654,-34.8641646752257,0 -58.4633918238314,-34.8611638820192,0 -58.4681716983642,-34.8634413716292,0 -58.4658947120894,-34.8665221077323,0 -58.4612146304654,-34.8641646752257,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">696</SimpleData>
+						<SimpleData name="nombre">Sin Identificar IV</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4677097646619,-34.9760056259445,0 -58.4675866504902,-34.9732101224644,0 -58.4827050133169,-34.9614851214344,0 -58.4863680868503,-34.9647033384384,0 -58.4696733156912,-34.9775805844148,0 -58.4677097646619,-34.9760056259445,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">697</SimpleData>
+						<SimpleData name="nombre">Sin Identificar III</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.45405128610181,-34.8875793274899,0 -58.4598813801725,-34.8905014049316,0 -58.4586010350263,-34.8922877416837,0 -58.4527151731189,-34.8894189695253,0 -58.45405128610181,-34.8875793274899,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">698</SimpleData>
+						<SimpleData name="nombre">Sin Identificar II</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.5111225916443,-34.9325992361178,0 -58.51504705062479,-34.9377034910594,0 -58.5073920254144,-34.9421881888652,0 -58.5023183912611,-34.9377004280832,0 -58.5111225916443,-34.9325992361178,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">699</SimpleData>
+						<SimpleData name="nombre">Santa Ines</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4930570278243,-34.9013091441831,0 -58.4990746496134,-34.9042767550975,0 -58.4932731156624,-34.9122354236169,0 -58.4872780121154,-34.9092137271043,0 -58.4930570278243,-34.9013091441831,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">700</SimpleData>
+						<SimpleData name="nombre">El Principado de San Vicente</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4888338728455,-34.9395252441593,0 -58.4969523506603,-34.9330736488994,0 -58.5074135845545,-34.9422064794938,0 -58.4979124268621,-34.9476412477069,0 -58.4888338728455,-34.9395252441593,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">701</SimpleData>
+						<SimpleData name="nombre">Canning Village</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.4961241567957,-34.9322792811213,0 -58.5013757452516,-34.9251429157749,0 -58.5082440693062,-34.928985814671,0 -58.5135185625649,-34.9217230049366,0 -58.5167395857522,-34.9233306150195,0 -58.5196027585015,-34.9278088898774,0 -58.5023076128438,-34.9376912823398,0 -58.4961241567957,-34.9322792811213,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">702</SimpleData>
+						<SimpleData name="nombre">Sin Identificar I</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.468508392463,-34.9113039108892,0 -58.47284862725429,-34.9144409292367,0 -58.45851485812119,-34.9291538497327,0 -58.45470034476111,-34.9263213946081,0 -58.468508392463,-34.9113039108892,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">703</SimpleData>
+						<SimpleData name="nombre">Los Troncos</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.2130253912515,-34.7500505524664,0 -58.2056895516753,-34.7464277288522,0 -58.2084802296999,-34.7425933901402,0 -58.215746692628,-34.7463862676816,0 -58.2130253912515,-34.7500505524664,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">704</SimpleData>
+						<SimpleData name="nombre">Sin Nombre9</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.5848359363184,-34.8774916109458,0 -58.5863242874979,-34.8774368245371,0 -58.5866911482959,-34.8770895817319,0 -58.5932056893874,-34.8824467941326,0 -58.5914177381561,-34.8846703349426,0 -58.5827875535204,-34.8802257356426,0 -58.5848359363184,-34.8774916109458,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">705</SimpleData>
+						<SimpleData name="nombre">Sin Nombre10</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.5777560874667,-34.8580219255298,0 -58.5882168589575,-34.8633353634161,0 -58.5819664872559,-34.8713563433793,0 -58.573088309585,-34.8642853820097,0 -58.5777560874667,-34.8580219255298,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">706</SimpleData>
+						<SimpleData name="nombre">CISSAB</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.5738290752035,-34.8739470358127,0 -58.5772589299572,-34.869111172416,0 -58.58436326278269,-34.8750796253603,0 -58.58442783533191,-34.8770542333438,0 -58.5848367086713,-34.877446554738,0 -58.5834049082535,-34.879304589259,0 -58.573886275245,-34.8744344104539,0 -58.5738290752035,-34.8739470358127,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">707</SimpleData>
+						<SimpleData name="nombre">Sin Nombre2</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.1405468656303,-34.8014898451003,0 -58.1407507550477,-34.8006818411397,0 -58.1425536931246,-34.7992133140501,0 -58.144909114007,-34.7974647854317,0 -58.1537805730751,-34.7920750804473,0 -58.1544694802422,-34.792536155607,0 -58.1556495314559,-34.793509371797,0 -58.1529696827052,-34.795613689525,0 -58.1594628430651,-34.8008582144927,0 -58.1552418033986,-34.8044533461862,0 -58.1510906006346,-34.800992629474,0 -58.14427898011671,-34.8065667629479,0 -58.1409111206855,-34.8037575351133,0 -58.1405468656303,-34.8014898451003,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">708</SimpleData>
+						<SimpleData name="nombre">Sin Nombre3</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.60040720006519,-34.9401861758767,0 -58.60531196654971,-34.9426941235199,0 -58.6027133121898,-34.9461883273914,0 -58.5985208685196,-34.9423365509902,0 -58.60040720006519,-34.9401861758767,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">712</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.16069878851819,-34.8311729577024,0 -58.16375700562621,-34.8285186597189,0 -58.1544882630364,-34.8205895253078,0 -58.1511180246086,-34.8233241294694,0 -58.16069878851819,-34.8311729577024,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Barrios_Cerrados">
+						<SimpleData name="id">715</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.5120106913806,-34.9104410728994,0 -58.5058903823445,-34.907531789928,0 -58.50348315856099,-34.9115574993349,0 -58.5092762942607,-34.9142168368965,0 -58.5120106913806,-34.9104410728994,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Zonas_Quita_Directa</name>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Zonas_Quita_Directa">
+						<SimpleData name="id">10001</SimpleData>
+						<SimpleData name="nombre">Alto Recoleta</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.3902899333015,-34.5849799284822,0 -58.3909995138226,-34.5849171825455,0 -58.3903450509135,-34.5855124318817,0 -58.39035067839251,-34.5863507296217,0 -58.39057166220499,-34.5867592367651,0 -58.3842811744035,-34.5908131300421,0 -58.38433398760479,-34.5914627754715,0 -58.3831449212835,-34.5915191281731,0 -58.3830791259915,-34.5909774679694,0 -58.38286201108901,-34.5903707101282,0 -58.3826927415806,-34.5901070853941,0 -58.381915278407,-34.5886096090796,0 -58.3857361711961,-34.5865871988923,0 -58.3872659597957,-34.5858142718764,0 -58.3891445421757,-34.5850369173671,0 -58.3897465622657,-34.5849006534059,0 -58.3902899333015,-34.5849799284822,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Zonas_Quita_Directa">
+						<SimpleData name="id">10003</SimpleData>
+						<SimpleData name="nombre">Retiro</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.3816660836335,-34.5902196555548,0 -58.3815089426782,-34.5932640103396,0 -58.3800597389286,-34.5932447761468,0 -58.3791333817441,-34.5932414854106,0 -58.3790515478665,-34.5940876321347,0 -58.3789876530907,-34.5951323057947,0 -58.3784871145296,-34.5950896014573,0 -58.3785506652597,-34.5940629498245,0 -58.37762464996891,-34.5940416257848,0 -58.3768961996056,-34.5945096319864,0 -58.3766809013283,-34.5943715705525,0 -58.3753743351002,-34.5926236588701,0 -58.3794993805526,-34.5901097779076,0 -58.3813940933393,-34.5890713790869,0 -58.3816660836335,-34.5902196555548,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Zonas_Quita_Directa">
+						<SimpleData name="id">10004</SimpleData>
+						<SimpleData name="nombre">Torres Catalinas</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.37108798717159,-34.5983619355592,0 -58.3695750823669,-34.5982515938009,0 -58.369168395959,-34.6017702810148,0 -58.368308389484,-34.6017137150504,0 -58.3683991247413,-34.6009758544993,0 -58.3695327278068,-34.5981879359803,0 -58.37218879985489,-34.5916618589759,0 -58.3738207661593,-34.5934862466178,0 -58.37318509611,-34.5942258606402,0 -58.37108798717159,-34.5983619355592,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Zonas_Quita_Directa">
+						<SimpleData name="id">10005</SimpleData>
+						<SimpleData name="nombre">Zona Kavanagh</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.3733336077008,-34.5949939558601,0 -58.37333325283521,-34.5944531641165,0 -58.3737594349223,-34.5938369407345,0 -58.3739466039747,-34.5937402912372,0 -58.3745647204011,-34.5944605646353,0 -58.3747721160664,-34.5950041148376,0 -58.375567945555,-34.5961143147261,0 -58.37543508049231,-34.5962207029041,0 -58.3743023584748,-34.5961785742451,0 -58.37440093399231,-34.5950352219089,0 -58.3733336077008,-34.5949939558601,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Zonas_Quita_Directa">
+						<SimpleData name="id">10011</SimpleData>
+						<SimpleData name="nombre">Puerto Madero</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-58.35681729736179,-34.6162147218071,0 -58.36315478885881,-34.5977149624169,0 -58.3696248338526,-34.5979368,0 -58.36838999020371,-34.6008856013178,0 -58.36586249142881,-34.6225102049193,0 -58.36516359454519,-34.6231227393821,0 -58.36449703417809,-34.6237537294295,0 -58.3633508529828,-34.624378279712,0 -58.36254423535649,-34.624367451662,0 -58.3563377407991,-34.6178666627635,0 -58.35681729736179,-34.6162147218071,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
